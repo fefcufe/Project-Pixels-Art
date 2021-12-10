@@ -20,6 +20,17 @@ for (let k = 0; k < colorsList.length; k += 1) {
     divsList[k].classList.add(colorsList[k]);
 }
 
+let pixelBoard = document.createElement('div');
+pixelBoard.className = 'pixel-board';
+document.body.appendChild(pixelBoard); 
+
+for (let j = 0; j < 25; j += 1) {
+    let pixel = document.createElement('div');
+    pixel.className = 'pixel';
+    pixel.className = 'square'
+    pixelBoard.appendChild(pixel);
+}
+
 
 
 
