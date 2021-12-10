@@ -1,0 +1,26 @@
+.black {
+    background-color: black;
+}
+
+.violet {
+    background-color: blueviolet;
+}
+
+.orange {
+    background-color: darkorange;
+}
+
+.pink {
+    background-color: deeppink;
+}
+
+.square {
+    border: solid 1px black; 
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+}
+
+#color-palette {
+    display: inline-block;
+}
