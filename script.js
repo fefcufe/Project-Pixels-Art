@@ -21,7 +21,7 @@ for (let k = 0; k < colorsList.length; k += 1) {
 }
 
 let pixelBoard = document.createElement('div');
-pixelBoard.className = 'pixel-board';
+pixelBoard.id = 'pixel-board';
 document.body.appendChild(pixelBoard); 
 
 for (let j = 0; j < 25; j += 1) {
